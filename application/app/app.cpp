@@ -67,7 +67,6 @@ void main_app() {
     led_init_func(&led_life, led_life_on, led_life_off);
     led_blink_set(&led_life, 1000);
 
-
     /* kernel start */
     task_run();
 }
